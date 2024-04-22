@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+  background-color: #808080e9; /* Background transparent */
+  position: fixed;
+  top: 0;
+  left: 50%; /* Aligning to the center */
+  transform: translateX(-50%); /* Shifting to the left by 50% of its own width */
+  z-index: 1000;
+  text-align: center; /* Aligning text in center */
+}
+
+.navbar a {
+  display: inline-block; /* Display inline */
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.about {
+  padding: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.titles {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.left-panel {
+  float: left;
+  width: 30%;
+}
+
+.personal-info ul {
+  list-style-type: none;
+  padding-left: 100px;
+}
+
+.personal-info li {
+  padding: 14px 0;
+  color: black;
+  border-bottom: solid 2px rgba(0, 0, 0, .1);
+}
+
+.right-panel {
+  float: right;
+  width: 60%;
+  padding-right: 100px;
+}
+
+.bio-text {
+  line-height: 1.45em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.education {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+.timeline {
+  list-style: none;
+  position: relative;
+  padding-right: 100px;
+}
+
+.timeline > li {
+  padding-left: 40px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .6);
+  line-height: 1em;
+}
+
+element.style {
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+
+.timeline > li > .timeline-content {
+  padding: 25px;
+  border: solid 1px #B6B6B6;
+  position: relative;
+}
+
+.projects {
+  padding-left: 40px;
+  padding-right: 15px;
+  color: black;
+}
+
+.project-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.interests {
+  padding-left: 40px;
+  padding-right: 15px;
+  color: black;
+}
+
+.interest-info {
+  padding-left: 40px;
+  padding-right: 15px;
+  list-style-type: none;
+}
+
+.interests-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-info {
+  padding-left: 40px;
+  padding-right: 15px;
+  list-style-type: none;
+}
